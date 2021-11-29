@@ -1,8 +1,10 @@
 const body = document.body;
 const h1 = document.querySelector("h1");
 const button = document.querySelector("button");
+const a = document.querySelector("a");
 
 body.style.textAlign = "center";
+a.style.color = "inherit";
 
 button.addEventListener("click", () => {
   const color = generateColor();
